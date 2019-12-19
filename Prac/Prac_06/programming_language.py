@@ -1,6 +1,5 @@
 class ProgrammingLanguage:
-    """Express information about the programming language"""
-
+  
     def __init__(self, Field, Typing, Reflection, Year):
         """Define programs that express a programming language"""
         self.Field = Field
