@@ -14,7 +14,8 @@ def main():
     print("The dynamically typed languages are:")
     for i in languages:
         if i.is_dynamic():
-            print(i.Field)
+            print(i.field)
 
 
-main()
+if __name__ == "__main__":
+    main()
