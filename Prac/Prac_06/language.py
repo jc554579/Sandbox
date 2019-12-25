@@ -12,9 +12,9 @@ def main():
     print(visual_basic)
 
     print("The dynamically typed languages are:")
-    for i in languages:
-        if i.is_dynamic():
-            print(i.field)
+    for language in languages:
+        if language.is_dynamic():
+            print(language.field)
 
 
 if __name__ == "__main__":
